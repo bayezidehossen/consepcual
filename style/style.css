@@ -1,0 +1,182 @@
+.work-sans-normal {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+ 
+.header{
+    background-image: url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 100px;
+    padding-top: 20px;
+}
+.nav-title{
+    font-weight: 800px;
+    font-size: 30px;
+}
+.text{
+   color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+}
+.dark2{
+    color: #727272;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.btn2{
+    font-weight: bold;
+    color: #FD6E0A;
+    border: 1px solid orange;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* banner style */
+.bannergreating{
+    color: #727272;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.bannerdescription{
+    font-size: 15px;
+    color: #727272;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.bannercontant{
+    max-width: 500px;
+}
+.bannertitle{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.bannerprofilepicture{
+    width: 500px;
+    height: 400px;
+}
+
+/* about me section */
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.section-description{
+    text-align: center;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.about{
+    
+    height: 200px;
+    width: 500px;
+    margin: 50px auto 80px auto;
+    padding: 80px;
+    text-align: center;
+}
+main{
+    max-width: 900px;
+    margin: 0px auto;
+    
+}
+.aboutitems{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.itemtitle{
+    color: #727272;
+    font-weight: bold;
+}
+.itemdes{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* here what design start */
+.what{
+    height: 200px;
+    width: 500px;
+}
+.point{
+    text-align: center;
+}
+.whattitle{
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 370px;
+    margin-bottom: 20px;
+    height: 20px;
+    width: 200px;
+}
+.whatdescription{
+    font-weight: bold;
+    font-size: 13px;
+    width: 600px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+.point2{
+    display: flex;
+    margin-left: 150px;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+.sefferet{
+    height: 300px;
+    width: 200px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+.picture{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+}
+.imagetitle{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.jsdes{
+    font-size: 15px;
+}
